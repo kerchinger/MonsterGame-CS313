@@ -6,3 +6,6 @@ and decisions you made in this project, including
 - impact on testability
 - timer-based versus thread-based concurrency
 - central clock versus autonomous monsters
+
+
+I suggested a central repository. The team decided to go another route. No harm, no foul.
