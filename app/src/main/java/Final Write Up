@@ -1,0 +1,8 @@
+(1.0)
+Include a brief (300-500 words) report on the design tradeoffs
+and decisions you made in this project, including
+- MVA versus MVC
+- use of SOLID and other design principles
+- impact on testability
+- timer-based versus thread-based concurrency
+- central clock versus autonomous monsters
