@@ -11,6 +11,13 @@ and decisions you made in this project, including
 I suggested a central repository. The team decided to go another route. No harm, no foul.
 
 For our project design, we went with the MVC style. The reason we decided to do this, or switch to this, is because our original design was much too complex. Toning it down a little caused a lot less stress, and a lot more functionality.
-Our Model was formed to be easier on the Monsters. We had three main things in our model that the view would handle. Our Monster model focused on creating a monster class, revolving around multiple classes. A class that would determine vulnerability/invulnerability, protected state, and the monster in general. Essentially, a state represents each monster. The Timer in our model determines whether the monster will move or not, and the vulnerability and invulnerability, and so on.  The Cell model is self-explanatory.
-Once the model updates, it relies on the view. The view calls upon the model, and does all the nitty gritty inside the program. The view seeâ€™s the user inputs, which in this case would be touch events, and so when itâ€™s time for the user to use the program, the view is now being used (or seen).
+
+Our Model was formed to be easier on the Monsters. We had three main things in our model that the view would handle. Our Monster model focused on creating a monster class, revolving around multiple classes. A class that would determine vulnerability/invulnerability, protected state, and the monster in general. 
+
+Essentially, a state represents each monster. The Timer in our model determines whether the monster will move or not, and the vulnerability and invulnerability, and so on.  The Cell model is self-explanatory.
+
+The reason the timer method was chosen apart from antonymous monsters is because of the fact that using a timer method is easier to produce, and also easier to update. 
+Calling upon updates using the timer method instead of creating a monster class that updates itself insures easy performance and testing. 
+
+Once the model updates, it relies on the view. The view calls upon the model, and does all the nitty gritty inside the program. The view see’s the user inputs, which in this case would be touch events, and so when it’s time for the user to use the program, the view is now being used (or seen).
 The user then uses our controller, which in this case are update events. The controller will use every aspect of the model, and the user will be ensured a clean program. 
