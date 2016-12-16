@@ -28,8 +28,6 @@ import com.oreilly.demo.android.pa.uidemo.view.DefaultMonsterGameView;
 
 import java.util.Random;
 
-//import android.media.MediaPlayer;
-
 
 /**
  * Created by nickpredey on 12/15/16.
