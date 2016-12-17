@@ -33,3 +33,18 @@ gritty inside the program. The view sees the user inputs, which in this case wou
 and so when it's time for the user to use the program, the view is now being used (or seen).
 The user then uses our controller, which in this case are update events. The controller will use
 every aspect of the model, and the user will be ensured a clean program.
+
+Going the route of a central clock vs autonomous monsters allowed each monster to be designed better
+and controlled easier. For example, since we have a central timer clock, it makes it much easier to
+just fire a tick event to change a monster state or move a monster state, vs having each monster
+determine when it is time to move or change state. Therefore, changing monster states with the clock
+allows us to let the timer run autonomously and let those update the monsters, opposed to trying to
+control each monster as they behave on their own.
+
+We utilized the Model-View-Controller design pattern in that the MonsterGameCell class in the cell
+model interacts with events received from the view. This differs from the Model View Adapter design
+pattern in that each element is represented linearly; objects in the model do not interact with
+objects in the view. So, for this particular project, representing it in the MVC pattern was
+beneficial to making the project run easily and efficiently.
+
+
