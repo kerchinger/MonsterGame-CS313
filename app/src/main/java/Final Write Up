@@ -44,6 +44,6 @@ We utilized the Model-View-Controller design pattern in that the MonsterGameCell
 model interacts with events received from the view. This differs from the Model View Adapter design
 pattern in that each element is represented linearly; objects in the model do not interact with
 objects in the view. So, for this particular project, representing it in the MVC pattern was
-beneficial to making the project run easily and efficiently.
+beneficial to making the project run easily and efficiently. 451
 
 

@@ -132,8 +132,8 @@ public class Monster implements
     };
 
     /**
-     * This will remove the dead PseudoMonster/Monster from the cell (it will be out of the view at this
-     * point)
+     * This will remove the dead PseudoMonster/Monster from the cell (it will be out of the view at
+     * this point)
      */
     protected synchronized void die() {
         Cell cell = getCell();

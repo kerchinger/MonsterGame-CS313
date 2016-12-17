@@ -13,7 +13,7 @@ import java.util.List;
  * This interface represents a cell in a world consisting of cells.
  *
  * @see PseudoMonster
- * @see World
+ * @see Arena
  * @see CellView
  */
 public interface Cell extends CellChangeListener {
