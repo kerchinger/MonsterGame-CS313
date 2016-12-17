@@ -44,12 +44,12 @@ public class Monster implements
     private Future task = null;
 
     /**
-     * This shows whether or not the actor is alive.
+     * This shows whether or not the pseudomonster is alive.
      */
     protected synchronized boolean isAlive() { return livingThread != null; }
 
     /**
-     * This method brings this actor to life by starting its internal threads.
+     * This method brings this pseudomonster to life by starting its internal threads.
      *
      */
     public synchronized void start() {
@@ -64,7 +64,7 @@ public class Monster implements
 
     /**
      * This method is used to schedule the runnable for execution by this
-     * actor.  If the actor is still waiting for a previously scheduled
+     * pseudomonster.  If the pseudomonster is still waiting for a previously scheduled
      * runnable to execute, then this invocation preempts the previous one.
      */
     protected synchronized void execute(Runnable runnable) {
@@ -142,7 +142,7 @@ public class Monster implements
     }
 
     /**
-     * The actor will be killed and its threads shut off.
+     * The pseudomonster will be killed and its threads shut off.
      */
     public synchronized boolean kill() {
         if (isAlive()) {
@@ -157,7 +157,7 @@ public class Monster implements
     public synchronized Cell getCell() { return currentCell; }
 
     /**
-     * The cell this actor is currently occupying.
+     * The cell this pseudomonster is currently occupying.
      */
     private Cell currentCell;
 

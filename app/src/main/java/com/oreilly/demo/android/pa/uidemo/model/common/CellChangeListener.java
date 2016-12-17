@@ -16,7 +16,7 @@ import com.oreilly.demo.android.pa.uidemo.model.monster.PseudoMonster;
 public interface CellChangeListener {
 
     /**
-     * This method indicates that an actor has entered a cell.
+     * This method indicates that a pseudomonster has entered a cell.
      * May be called from any thread, usually not the Swing thread.
      */
     void onEnterCell(CellEvent event);

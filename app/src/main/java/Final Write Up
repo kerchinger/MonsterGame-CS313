@@ -7,7 +7,6 @@ and decisions you made in this project, including
 - timer-based versus thread-based concurrency
 - central clock versus autonomous monsters
 
-
 I suggested a central repository. The team decided to go another route. No harm, no foul.
 
 For our project design, we went with the MVC style. The reason we decided to do this, or switch to
