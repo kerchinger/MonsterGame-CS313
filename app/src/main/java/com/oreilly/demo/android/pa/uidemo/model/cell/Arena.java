@@ -7,7 +7,7 @@ package com.oreilly.demo.android.pa.uidemo.model.cell;
 import com.oreilly.demo.android.pa.uidemo.model.monster.PseudoMonster;
 
 /**
- * This interface represents an Arena that can be populated with actors.
+ * This interface represents an Arena that can be populated with pseudomonsters.
  * Yes, this an Arena. Few players enter, only one can win >:).
  * @see PseudoMonster
  */
