@@ -90,7 +90,7 @@ public class MonsterGameController extends Activity implements ModelChangeListen
 
         view.init(cells, Constants.CELL_SIZE);
 
-        // start the initial actors
+        // start the initial pseudomonsters
         for (PseudoMonster a : model.getLivingPseudoMonsters()) {
             a.start();
         }
@@ -101,6 +101,11 @@ public class MonsterGameController extends Activity implements ModelChangeListen
 
     }
 
+    /**
+     * Creates the options menu
+     * @param menu
+     * @return
+     */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 
